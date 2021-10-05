@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62,5%;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+}
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+header nav ul li{
+    list-style: none;
+    margin: 1rem 1rem;
+    border-radius: 5px;
+}
+header nav ul li:hover{
+    text-decoration: underline;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+header nav ul li img{
+    width: 3.5rem;
+}
+header nav ul #ini_sesion{
+    background-color: rgba(44, 89, 214, 0.808);
+    padding: 1.5em;
+    margin-right: 80px;
+}
+header nav ul #ini_sesion a{
+    color: white;
+}
+
+header nav ul svg:hover li {
+    background-color: rgba(168, 167, 167, 0.329);
+}
+main div {
+    display: flex;
+}
+main div {
+    align-items: center;
+    justify-content: center;    
+    
+}
+main div img{
+    margin-top: 200px;
+    
+}
+div #search{
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+   
+}
+div #search form{
+    
+
+
+}
+#search form input{
+    font-size: 1.3em;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgb(236, 232, 232);
+    border: rgb(236, 232, 232);
+    color: gray;
+}
+#search form .btn_search{
+    margin-left:  90px;
+} 
+#search form input:hover {
+    border: black;
+    background-color: rgb(194, 194, 194);
+}
+div section{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+ div section p{
+     
+    font-weight:bolder ;
+}    
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(194, 194, 194);
+    border-top: 1px solid  rgb(134, 134, 134);
+    height: 120px;
+   /*  padding: 20px 0; */
+   
+}
+footer a {
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    font-size: 1.2rem;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer section{
+    padding: 15px;
+}
+footer hr{
+    height: 1px;
+    border: 0;
+    border-top: 2px;
+    border-top-style: solid;
+    border-color: rgb(134, 134, 134);
+}
+footer div{
+    
+    padding-top: 5px;
+}
+footer div div{
+    display: flex;
+    justify-content: space-between;
+}
+footer div div div a {
+    padding: 10px;
+   
+    
+}
+footer div div #social{
+  
+    
+}
+ #condition{
+   
+    
+}
